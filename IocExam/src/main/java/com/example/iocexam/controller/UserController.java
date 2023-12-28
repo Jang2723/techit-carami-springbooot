@@ -13,6 +13,10 @@ public class UserController {
         this.userService = userService;
     }
 
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
+
     public void joinUser(){
         // 클라이언트에서 보낸 값을 이용
 

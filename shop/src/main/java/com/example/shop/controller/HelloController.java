@@ -20,7 +20,7 @@ public class HelloController {
     @ResponseBody
     public List<String> hello(){
         List<String> names = new ArrayList<>();
-        names.add("kang");
+        names.add("park");
         names.add("kim");
         names.add("hong");
         names.add("lee");
